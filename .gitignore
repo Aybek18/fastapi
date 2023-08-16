@@ -1,0 +1,9 @@
+/.env
+/src/staticfiles/
+/src/mediafiles/
+.idea/
+/static_volume/
+__pycache__/
+*.py[cod]
+*$py.class
+/media_volume/
