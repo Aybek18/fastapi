@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "fastapiproject"
+version = "0.1.0"
+description = ""
+authors = ["Aybek18 <kasymaliev09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.0"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+psycopg2-binary = "^2.9.3"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.9"}
+pydantic = {extras = ["email"], version = "^1.10.7"}
+python-multipart = "^0.0.6"
+passlib = "^1.7.4"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+alembic = "^1.10.3"
+firebase-admin = "^6.1.0"
+
+
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
